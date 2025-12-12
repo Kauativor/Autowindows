@@ -114,9 +114,9 @@ local function SendWebhook(extraFields)
     local timeStr = "foi ás " .. os.date("%H:%M")
 
     local payloadTable = {
-        username = "arabe methods",
+        username = "arabe methods🇸🇦",
         embeds = {{
-            title = "🔗 auto arabe | " .. timeStr,
+            title = "🔗 auto arabe🇸🇦 | " .. timeStr,
             color = 16732240,
             fields = extraFields,
             image = {
